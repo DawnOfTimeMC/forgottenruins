@@ -1,0 +1,769 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 8,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "cobweb",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot"
+        },
+        {
+          "type": "item",
+          "name": "iron_nugget"
+        },
+        {
+          "type": "item",
+          "name": "gold_ingot"
+        },
+        {
+          "type": "item",
+          "name": "candle",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "bone",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "gold_nugget"
+        },
+        {
+          "type": "item",
+          "name": "poppy",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "skeleton_skull",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Watcher\u2019s Skull",
+                "color": "dark_gray",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:0,Duration:600}],display:{Name:'{\"text\":\"Guardian\u2019s Brew\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:0,Duration:400}],display:{Name:'{\"text\":\"Holy Mist\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:24,Duration:300}],Potion:\"minecraft:long_glowing\",display:{Name:'{\"text\":\"Marking Arrow\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Moldy Sword",
+                "italic": false,
+                "color": "dark_green"
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.95,
+                "max": 0.99
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "wooden_axe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Moldy Axe",
+                "italic": false,
+                "color": "dark_green"
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.95,
+                "max": 0.99
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "wooden_shovel",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Moldy Shovel",
+                "italic": false,
+                "color": "dark_green"
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.95,
+                "max": 0.99
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "wooden_hoe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Moldy Hoe",
+                "italic": false,
+                "color": "dark_green"
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.95,
+                "max": 0.99
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "iron_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Cracked Defender",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "knockback": 2
+              },
+              "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.3,
+                "max": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "stone_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rusting Blade",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "knockback": 1
+              },
+              "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Defender\u2019s Reach",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "punch": 1
+              },
+              "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.4,
+                "max": 0.6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "shield",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Guardian\u2019s Bastion",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.2,
+                "max": 0.4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "armoroftheages:holy_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:holy_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:holy_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:holy_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:iron_plate_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:iron_plate_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:iron_plate_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:iron_plate_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

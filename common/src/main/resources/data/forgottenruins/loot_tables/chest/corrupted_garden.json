@@ -1,0 +1,455 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 8,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "vine"
+        },
+        {
+          "type": "item",
+          "name": "spore_blossom"
+        },
+        {
+          "type": "item",
+          "name": "brown_mushroom"
+        },
+        {
+          "type": "item",
+          "name": "red_mushroom"
+        },
+        {
+          "type": "item",
+          "name": "mud"
+        },
+        {
+          "type": "item",
+          "name": "moss_block"
+        },
+        {
+          "type": "item",
+          "name": "dead_bush"
+        },
+        {
+          "type": "item",
+          "name": "lily_pad"
+        },
+        {
+          "type": "item",
+          "name": "coarse_dirt"
+        },
+        {
+          "type": "item",
+          "name": "mangrove_roots"
+        },
+        {
+          "type": "item",
+          "name": "mangrove_propagule"
+        },
+        {
+          "type": "item",
+          "name": "rotten_flesh"
+        },
+        {
+          "type": "item",
+          "name": "suspicious_stew"
+        },
+        {
+          "type": "item",
+          "name": "splash_potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:7,Amplifier:0,Duration:300},{Id:9,Amplifier:0,Duration:200}],display:{Name:'{\"text\":\"Rotten Vapors\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "splash_potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:18,Duration:300},{Id:2,Duration:200}],display:{Name:'{\"text\":\"Decay Essence\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:17,Amplifier:9,Duration:300},{Id:1,Amplifier:1,Duration:600}],display:{Name:'{\"text\":\"Hunger Rush\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:19,Amplifier:2,Duration:200},{Id:5,Amplifier:2,Duration:300}],display:{Name:'{\"text\":\"Rage Spores\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:2,Amplifier:1,Duration:300},{Id:11,Amplifier:1,Duration:600}],display:{Name:'{\"text\":\"Weighted Defense\"}'}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Corrupt Root",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.9,
+                "max": 0.99
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "wooden_shovel",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Witch\u2019s Shovel",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.9,
+                "max": 0.99
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "stone_hoe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ritual Hoe",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.9,
+                "max": 0.99
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "stone_shovel",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Rotted Digger",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.9,
+                "max": 0.99
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "armoroftheages:bamboo_hat",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.75,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:quetzalcoatl_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:quetzalcoatl_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:quetzalcoatl_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:quetzalcoatl_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

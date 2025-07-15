@@ -1,0 +1,625 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 6,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "copper_block"
+        },
+        {
+          "type": "item",
+          "name": "copper_ingot"
+        },
+        {
+          "type": "item",
+          "name": "redstone",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "observer"
+        },
+        {
+          "type": "item",
+          "name": "piston"
+        },
+        {
+          "type": "item",
+          "name": "repeater"
+        },
+        {
+          "type": "item",
+          "name": "comparator"
+        },
+        {
+          "type": "item",
+          "name": "iron_block"
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot"
+        },
+        {
+          "type": "item",
+          "name": "iron_nugget"
+        },
+        {
+          "type": "item",
+          "name": "experience_bottle"
+        },
+        {
+          "type": "item",
+          "name": "amethyst_shard"
+        },
+        {
+          "type": "item",
+          "name": "quartz"
+        },
+        {
+          "type": "item",
+          "name": "glowstone_dust"
+        },
+        {
+          "type": "item",
+          "name": "book",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Mechanism Logbook",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "redstone_block",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Golem Heart",
+                "italic": false,
+                "color": "red"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "iron_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Arc Reactor",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "knockback": 1,
+                "sharpness": 2
+              },
+              "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.3,
+                "max": 0.5
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "netherite_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Overcharged Saber",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "smite": 2,
+                "sweeping": 2
+              },
+              "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.01,
+                "max": 0.03
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bow",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Voltaic Longbow",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "power": 2,
+                "punch": 1
+              },
+              "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.3,
+                "max": 0.5
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+  "type": "item",
+  "name": "shield",
+  "functions": [
+    {
+      "function": "set_name",
+      "name": {
+        "text": "Pulse Barrier",
+        "italic": false,
+        "color": "red"
+      }
+    },
+    {
+      "function": "set_nbt",
+      "tag": "{BlockEntityTag:{Base:15,Patterns:[{Pattern:\"bs\",Color:14},{Pattern:\"mr\",Color:14},{Pattern:\"cre\",Color:14}]}}"
+    },
+    {
+      "function": "set_damage",
+      "damage": {
+        "type": "uniform",
+        "min": 0.3,
+        "max": 0.5
+      }
+    },
+    {
+      "function": "minecraft:enchant_randomly",
+      "conditions": [
+        {"condition": "minecraft:random_chance", "chance": 0.5}
+      ]
+    }
+  ]
+}
+
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.6,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.6,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.6,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.6,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "armoroftheages:exalted_aurum_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:exalted_aurum_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:exalted_aurum_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:exalted_aurum_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

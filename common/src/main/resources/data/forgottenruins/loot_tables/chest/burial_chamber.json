@@ -1,0 +1,618 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 8,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "poppy"
+        },
+        {
+          "type": "item",
+          "name": "wither_rose",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Faded Offering",
+                "italic": false,
+                "color": "dark_gray"
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "allium"
+        },
+        {
+          "type": "item",
+          "name": "blue_orchid"
+        },
+        {
+          "type": "item",
+          "name": "bone"
+        },
+        {
+          "type": "item",
+          "name": "rotten_flesh"
+        },
+        {
+          "type": "item",
+          "name": "suspicious_stew"
+        },
+        {
+          "type": "item",
+          "name": "gold_nugget"
+        },
+        {
+          "type": "item",
+          "name": "gold_ingot"
+        },
+        {
+          "type": "item",
+          "name": "candle"
+        },
+        {
+          "type": "item",
+          "name": "glow_ink_sac"
+        },
+        {
+          "type": "item",
+          "name": "cobweb"
+        },
+        {
+          "type": "item",
+          "name": "book",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Burial Record",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "skeleton_skull",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ancestral Skull",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ceremonial Blade",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "stone_sword",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Worn Dagger",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_axe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Offering Cleaver",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_helmet",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Burial Mask",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Anointed Robe",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "armoroftheages:anubis_armor_head",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:anubis_armor_chest",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:anubis_armor_legs",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "armoroftheages:anubis_armor_feet",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "leather_helmet",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ceremonial Hood",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16766720}}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ceremonial Robe",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16766720}}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_leggings",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ceremonial Legwraps",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16766720}}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_boots",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ceremonial Sandals",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16766720}}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_helmet",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ornamented Mask",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ornamented Chestplate",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_leggings",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ornamented Leggings",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_boots",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ornamented Sandals",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.85,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

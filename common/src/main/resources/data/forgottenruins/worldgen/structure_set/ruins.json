@@ -1,0 +1,27 @@
+{
+  "structures": [
+    {
+      "structure": "forgottenruins:ruin1",
+      "weight": 1
+    },
+    {
+      "structure": "forgottenruins:ruin2",
+      "weight": 1
+    },
+    {
+      "structure": "forgottenruins:ruin3",
+      "weight": 1
+    },
+    {
+      "structure": "forgottenruins:ruin4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 8,
+    "spread_type": "triangular",
+    "salt": 19091440
+  }
+}
