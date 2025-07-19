@@ -1,6 +1,7 @@
 {
   "values": [
     "forgottenruins:tick_ancient_golem",
-    "forgottenruins:tick_young_golem"
+    "forgottenruins:tick_young_golem",
+    "forgottenruins:tick"
   ]
 }
