@@ -1,7 +1,9 @@
 {
   "values": [
-    "forgottenruins:tick_ancient_golem",
-    "forgottenruins:tick_young_golem",
-    "forgottenruins:tick"
+    "forgottenruins:golems/tick_ancient_golem",
+    "forgottenruins:golems/tick_young_golem",
+    "forgottenruins:tick",
+    "forgottenruins:sentinel_golems/tick_handler",
+    "forgottenruins:sentinel_golems/idle_particles"
   ]
 }
