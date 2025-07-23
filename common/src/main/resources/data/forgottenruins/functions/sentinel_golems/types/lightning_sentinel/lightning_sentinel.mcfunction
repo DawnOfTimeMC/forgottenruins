@@ -10,10 +10,6 @@ execute as @e[tag=random_picker,limit=1,sort=nearest] at @s run teleport @s ~ ~ 
 # 4. Stocke la coordonnée X dans effect_roll
 execute store result score @s effect_roll run data get entity @e[tag=random_picker,limit=1,sort=nearest] Pos[0]
 
-# Debug : afficher le score brut
-say [DEBUG] effect_roll brut : 
-scoreboard players get @s effect_roll
-
 # 5. Découpe en 3 bandes : gauche / centre / droite
 execute if score @s effect_roll matches ..-1 run function forgottenruins:sentinel_golems/types/lightning_sentinel/effect_explosion
 
