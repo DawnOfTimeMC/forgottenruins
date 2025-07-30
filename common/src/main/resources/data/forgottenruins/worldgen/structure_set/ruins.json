@@ -15,6 +15,10 @@
     {
       "structure": "forgottenruins:ruin4",
       "weight": 1
+    },
+    {
+      "structure": "forgottenruins:ruin5",
+      "weight": 1
     }
   ],
   "placement": {
