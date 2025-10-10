@@ -19,7 +19,11 @@
     {
       "structure": "forgottenruins:ruin5",
       "weight": 1
-    }
+    },
+      {
+          "structure": "forgottenruins:desert_temple",
+          "weight": 1
+      }
   ],
   "placement": {
     "type": "minecraft:random_spread",
