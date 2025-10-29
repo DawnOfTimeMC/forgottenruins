@@ -1,6 +1,7 @@
 plugins {
     id 'multiloader-loader'
     id 'fabric-loom'
+    id 'me.modmuss50.mod-publish-plugin'
 }
 
 repositories {
@@ -59,5 +60,18 @@ loom {
             ideConfigGenerated(true)
             runDir("run")
         }
+    }
+}
+
+publishMods {
+    file = remapJar.archiveFile
+    modLoaders.addAll("fabric", "quilt")
+
+    curseforge {
+        //fabric only dependencies found on curseforge go here. same format as in the root build.gradle
+    }
+
+    modrinth {
+        //fabric only dependencies found on modrinth go here. same format as in the root build.gradle
     }
 }
