@@ -21,6 +21,10 @@
       "weight": 1
     },
       {
+          "structure": "forgottenruins:desert_library",
+          "weight": 1
+      },
+      {
           "structure": "forgottenruins:desert_temple",
           "weight": 1
       }
@@ -30,6 +34,6 @@
     "spacing": 34,
     "separation": 8,
     "spread_type": "triangular",
-    "salt": 12091447
+    "salt": 191447
   }
 }
