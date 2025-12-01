@@ -27,6 +27,10 @@
       {
           "structure": "forgottenruins:desert_temple",
           "weight": 1
+      },
+      {
+          "structure": "forgottenruins:savaged_library",
+          "weight": 1
       }
   ],
   "placement": {
